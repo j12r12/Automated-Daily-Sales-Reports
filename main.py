@@ -1,7 +1,7 @@
 import pandas as pd
-from data_2 import Daily_Data
-from graph_2 import Graph
-from excel_2 import Excel
+from data import Daily_Data
+from graph import Graph
+from excel import Excel
 import os
 import sys
 from datetime import datetime, date
