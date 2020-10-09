@@ -13,7 +13,7 @@ import win32ui
 
 def outlook_running():
 
-    """This function checks whether or not Microsoft Outlook is open. If not, then it opens it."""
+    """This function checks whether or not Microsoft Outlook is open."""
 
     try:
         win32ui.FindWindow(None, "Microsoft Outlook")
